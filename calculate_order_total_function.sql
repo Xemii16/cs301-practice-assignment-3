@@ -9,3 +9,4 @@ from (select order_items.quantity * order_items.price as total_order_price
 $$ language sql;
 
 select calculate_order_total(1);  -- expect 1250
+select calculate_order_total(998) -- expect 0
