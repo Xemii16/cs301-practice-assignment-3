@@ -13,3 +13,5 @@ Backend check if necessary permissions is had, after rewrites SQL query to more 
 Index Scan is used when index tables are available, Sequential Scan when not.
 Hash Join is used when indexes are not exists. It is works by creating hash table for smaller table.
 Nested Loop is used for small tables when PostgreSQL just join by going through all rows.
+## Link to Git commit history
+[Link](https://github.com/Xemii16/cs301-practice-assignment-3/commits/main/)
